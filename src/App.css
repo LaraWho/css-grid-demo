@@ -9,21 +9,28 @@
   padding: 2rem 3rem .1rem 3rem;
   text-align: left;
 }
+/* ****OVERALL SETTINGS****/
 
 section {
   margin: 2rem 3rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* ******SECTION 1*** */
 
 #section-1 .grid-container {
   border: 4px solid #333;
   height: 200px;
+
   display: grid;
   grid-template-columns: 100px auto 100px 100px;
   grid-template-rows: 1fr 2fr;
   grid-template-areas: "left-side left-side top-right top-right "
                        "left-side left-side . . ";
-
 }
 
 #section-1 .item:first-child {
@@ -39,12 +46,18 @@ section {
   background: #ddd;
 }
 
+#section-1 .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* *********** */
 #github-link {
   margin: 0;
 }
 #github-link:hover {
-  color: teal;
+  color: dodgerblue;
 }
 #github-link > a, #github-link > a:visited, #github-link > a:active {
   text-decoration: none;

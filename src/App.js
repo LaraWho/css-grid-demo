@@ -48,7 +48,7 @@ class App extends Component {
       </section>
 
 
-      <p id='github-link'><a href="#"><i class="fab fa-github"></i> GitHub</a></p>
+      <p id='github-link'><a href="https://github.com/nathan-08/css-grid-demo"><i class="fab fa-github"></i> GitHub</a></p>
       </div>
     );
   }

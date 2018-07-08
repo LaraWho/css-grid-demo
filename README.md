@@ -1,9 +1,9 @@
 # Introduction to CSS Grid
 
-Thanks to Chris House at css-tricks.com
-https://css-tricks.com/snippets/css/complete-guide-grid/
+Thanks to [Chris House at css-tricks.com](https://css-tricks.com/snippets/css/complete-guide-grid/) for the information in this guide
 
-CSS Grid Layout is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system. You work with Grid Layout by applying CSS rules both to a parent element (which becomes the Grid Container) and to that elements children (which become Grid Items).
+
+> CSS Grid Layout is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system. You work with Grid Layout by applying CSS rules both to a parent element (which becomes the Grid Container) and to that elements children (which become Grid Items).
 
 
 ## Terminology
@@ -32,6 +32,15 @@ Property Name | Description | Possible Values
 Property Name | Description | Possible Values
 --- | --- | ---
 `grid-area` | Gives the name of the grid area defined in the parent property `grid-template-areas` | [ grid area name ]
+`grid-column-start`, `grid-column-end`, `grid-row-start`, `grid-row-end` | Determines a grid item's location within the grid by referring to specific grid lines. | line number or name of grid cell [span col-4] (will span 1 by default)
+`grid-column`, `grid-row` | shorthand for `grid-column-start` + `grid-column-end` etc. | e.g. `3 / span 2`
+`grid-area` | Gives an item a name so that it can be referenced by a template created with the `grid-template-areas`. Can also be shorthand for `grid-row-start` + `grid-column-start` + `grid-row-end` + `grid-column-end`, separated by `/` | [grid area name] or four values separated by `/`
+`justify-self` | Aligns a grid item horizontally | `start`, `end`, `center`, `stretch`
+`align-self` | Aligns a grid item vertically | `start`, `end`, `center`, `stretch`
+
+
+
+
 
 
 
