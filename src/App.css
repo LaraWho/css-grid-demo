@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  background: #f1f1f1;
+}
+
+.header {
+  background: #333;
+  color: #f1f1f1; 
+  padding: 2rem 3rem .1rem 3rem;
+  text-align: left;
+}
+
+section {
+  margin: 2rem 3rem;
+}
+/* ******SECTION 1*** */
+
+#section-1 .grid-container {
+  border: 4px solid #333;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 100px auto 100px 100px;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas: "left-side left-side top-right top-right "
+                       "left-side left-side . . ";
+
+}
+
+#section-1 .item:first-child {
+  background: pink !important;
+  grid-area: left-side;
+}
+#section-1 .item:nth-child(2) {
+  background: dodgerblue !important;
+  grid-area: top-right;
+}
+
+#section-1 .item:nth-child(odd) {
+  background: #ddd;
+}
+
+/* *********** */
+#github-link {
+  margin: 0;
+}
+#github-link:hover {
+  color: teal;
+}
+#github-link > a, #github-link > a:visited, #github-link > a:active {
+  text-decoration: none;
+  color: currentColor;
+}
+
+/* *********** */
