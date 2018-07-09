@@ -5,7 +5,6 @@ Thanks to [Chris House at css-tricks.com](https://css-tricks.com/snippets/css/co
 
 > CSS Grid Layout is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system. You work with Grid Layout by applying CSS rules both to a parent element (which becomes the Grid Container) and to that elements children (which become Grid Items).
 
-
 ## Terminology
 
 Terminology | Definition
@@ -48,6 +47,8 @@ Use grid-auto-rows or grid-auto-columns instead of templates: e.g. `grid-auto-ro
 Make a grid item a grid container by giving it `display: grid`! Grids within grids. 
 
 expirement with media queries like in section-3! 
+
+To run this demo, first install dependencies by running `npm i`, then start the dev server with `npm start`
 
 
 
