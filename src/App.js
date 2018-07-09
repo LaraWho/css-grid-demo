@@ -13,7 +13,7 @@ class App extends Component {
       <section id='section-1'>
         <div className='grid-container'>
           <div className="item">grid-area: left-side</div>
-          <div className="item">gird-area: top-right </div>
+          <div className="item">grid-area: top-right </div>
           <div className="item">item</div>
           <div className="item">item</div>
 
