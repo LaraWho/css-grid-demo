@@ -12,35 +12,42 @@ class App extends Component {
       </header>
       <section id='section-1'>
         <div className='grid-container'>
-          <div className="item">grid area: left-side</div>
-          <div className="item">gird area: top-right </div>
+          <div className="item">grid-area: left-side</div>
+          <div className="item">gird-area: top-right </div>
           <div className="item">item</div>
           <div className="item">item</div>
 
         </div>
       </section>
-      <section id='section-1'>
+      <section id='section-2'>
         <div className='grid-container'>
-          <div className="item">grid area: left-side</div>
-          <div className="item">gird area: top-right </div>
-          <div className="item">item</div>
-          <div className="item">item</div>
+          <div className="item">grid-area: left-side</div>
+          <div className="item">grid-area: right-side</div>
 
         </div>
       </section>
-      <section id='section-1'>
+      <section id='section-3'>
         <div className='grid-container'>
-          <div className="item">grid area: left-side</div>
-          <div className="item">gird area: top-right </div>
-          <div className="item">item</div>
-          <div className="item">item</div>
+          <div className="item content-header">header</div>
+          <div className="item content-left">content-left</div>
+          <div className="item content-mid">main</div>
+          <div className="item content-right">content-right</div>
+          <div className="item content-footer">footer</div>
 
         </div>
       </section>
-      <section id='section-1'>
+      <section id='section-4'>
         <div className='grid-container'>
-          <div className="item">grid area: left-side</div>
-          <div className="item">gird area: top-right </div>
+          <div className="item">item</div>
+          <div className="item">item</div>
+          <div className="item">item</div>
+          <div className="item">item</div>
+          <div className="item">item</div>
+          <div className="item">item</div>
+          <div className="item">item</div>
+          <div className="item">item</div>
+          <div className="item">item</div>
+          <div className="item">item</div>
           <div className="item">item</div>
           <div className="item">item</div>
 

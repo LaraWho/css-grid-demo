@@ -25,6 +25,8 @@ Property Name | Description | Possible Values
 `display` | Defines the element as a grid container | `grid`, `inline-grid`
 `grid-template-columns`, `grid-template-rows` | Defines columns and rows of the grid | [ line-name ] (optional), [ track-size ] e.g. `[first] 40px [mid] 40px [last] 50px`. We can use fractional units here (`1fr 1fr 1fr`)
 `gird-template-areas` | Defines grid areas | [ grid-area-name ]
+`justify-items`, `align-items`, `place-items` | position grid items horizontally and vertically. Place-items is shorthand for both. | `start`, `center`, `end`, `stretch`
+`justify-content`, `align-content` | Use if the total size of your grid is less than the size of the grid container | `start`, `center`, `end`, `stretch`, `space-evenly`, `space-between`, `space-around`
 
 
 ## Child Properties
@@ -37,6 +39,15 @@ Property Name | Description | Possible Values
 `grid-area` | Gives an item a name so that it can be referenced by a template created with the `grid-template-areas`. Can also be shorthand for `grid-row-start` + `grid-column-start` + `grid-row-end` + `grid-column-end`, separated by `/` | [grid area name] or four values separated by `/`
 `justify-self` | Aligns a grid item horizontally | `start`, `end`, `center`, `stretch`
 `align-self` | Aligns a grid item vertically | `start`, `end`, `center`, `stretch`
+`place-self` | Sets align-self and justify-self properties | [align-self value] / [justify-self value]
+
+## Other things
+
+Use grid-auto-rows or grid-auto-columns instead of templates: e.g. `grid-auto-rows: 50px` or `grid-auto-rows: minmax(50px, auto)`
+
+Make a grid item a grid container by giving it `display: grid`! Grids within grids. 
+
+expirement with media queries like in section-3! 
 
 
 
